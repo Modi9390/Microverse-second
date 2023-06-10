@@ -6,6 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>Hello World, we are software developers!</H1>
+    <h1 id="title">Survey Form</h1>
+
+ <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+ <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="name" required><br>
+      <label id="email-label">Email</label>
+    <input id="email" type="email" required placeholder="email"><br>
+    <label id="number-label">Number</label>
+    <input id="number" type="number" min="8" max="10" placeholder="number" required><br>
+    <label id="name-label">Option</label>
+    <select id="dropdown">
+      <option>Good</option>
+      <option>Bad</option><br><br>
+    </select>
+        <input  type="radio" value="fname"name="fname" >
+        <input  type="radio" value="fname" name="fname" >
+        <input  type="checkbox" value="ch"> 
+        <input  type="checkbox" value="ch"><br><br>
+        <textarea></textarea> <br><br>
+        <input id="submit" type="Submit" value="submit">
+ </form>
 </body>
 </html>
